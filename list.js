@@ -1,0 +1,44 @@
+const list = [
+  {
+    "name":"Afghanistan",
+    "flag":"🇦🇫",
+    "code":"AF",
+    "dial_code":"+93"
+ },
+ {
+    "name":"Åland Islands",
+    "flag":"🇦🇽",
+    "code":"AX",
+    "dial_code":"+358"
+ },
+ {
+    "name":"Albania",
+    "flag":"🇦🇱",
+    "code":"AL",
+    "dial_code":"+355"
+ },
+ {
+    "name":"Algeria",
+    "flag":"🇩🇿",
+    "code":"DZ",
+    "dial_code":"+213"
+ },
+ {
+    "name":"American Samoa",
+    "flag":"🇦🇸",
+    "code":"AS",
+    "dial_code":"+1684"
+ },
+ {
+    "name":"Andorra",
+    "flag":"🇦🇩",
+    "code":"AD",
+    "dial_code":"+376"
+ },
+ {
+    "name":"Angola",
+    "flag":"🇦🇴",
+    "code":"AO",
+    "dial_code":"+244"
+ }
+]

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet" />
+  <title>country/Dial code fetcher</title>
+</head>
+<body>
+  <main>
+   <p class="heading">country/dial code fetcher</p>
+   <div class="container">
+    <p id="query">enter dial/country code:</p>
+    <br>
+    <br>
+    <input type="text" id="text" name="cname"><br><br>
+    <br>
+    <input type="submit" id="submit" value="Generate" onclick="generate()" />
+    <br>
+    <button type="button" id="cls" onclick="clearScreen()">clear screen</button>
+   </div>
+  </div>
+  <br>
+  <br>
+  <table style="width:100%;">
+   <tr>
+     <th>country name</th>
+     <th>country code </th>
+     <th>dial code</th>
+     <th>flag</th>
+   </tr>
+   <tr>
+   <td id="country"></td>
+   <td id="code"></td>
+   <td id="dial"></td>
+   <td id="flag"></td>
+   
+  </tr>
+  </table>
+  </main>
+  <script type="text/javascript" src="list.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
